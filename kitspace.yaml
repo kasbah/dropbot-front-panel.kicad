@@ -24,18 +24,5 @@ bom: manufacturing/default/dropbot-front-panel-BOM.csv
 gerbers: manufacturing/default/gerbers # A path to your folder of gerbers in case it isn't `gerbers/`.
 
 eda:
-  type: kicad # or eagle
-  pcb: dropbot-front-panel.kicad_pcb # your/eagle.brd
-
-readme: README.md # A path to your README file in case it isn't in the repository root directory.
-
-pcb-services: [aisler, pcbway, oshpark, jlcpcb]
-  # A list of the PCB services you would like to have included on your
-  # page. If left undefined all are included. Otherwise ust be a list of Kitspace
-  # sponsors, possible values are:
-  #      - aisler
-  #      - pcbway
-  #      - oshpark
-  #      - jlcpcb
-
-multi: # Identifier field only used if the repository contains multiple projects. See below for details.
+  type: kicad
+  pcb: dropbot-front-panel.kicad_pcb
